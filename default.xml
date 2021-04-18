@@ -489,4 +489,7 @@
   <!-- LAST: Add/Replace repos and particular directories needed by TWRP -->
   <include name="twrp-extras.xml"/>
 
+  <!-- Add devices -->
+  <include name="device.xml"/>
+
 </manifest>

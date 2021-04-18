@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- <remote name="TeamWin"
+            fetch="https://github.com/TeamWin"
+            review="https://gerrit.twrp.me" /> -->
+
+    <!-- TWRP Nexus 7 [2013] "flo"(WiFi) "deb"(Mobile) -->
+    <project path="device/asus/flo" name="android_device_asus_flo" remote="TeamWin" revision="android-6.0" />
+    <project path="device/asus/deb" name="android_device_asus_deb" remote="TeamWin" revision="android-5.0" />
+
+</manifest>
+
