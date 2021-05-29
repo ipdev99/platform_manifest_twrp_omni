@@ -52,6 +52,10 @@ To initialize a shallow clone, which will save even more space, use a command li
 
     repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-6.0
 
+To initialize your local repository using (this manifest) the OMNIROM trees to build TWRP, use a command like this:
+
+    repo init -u git://github.com/ipdev99/platform_manifest_twrp_omni.git -b twrp-6.0
+
 Then to sync up:
 
     repo sync
